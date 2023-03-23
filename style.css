@@ -149,6 +149,32 @@ font-size: 14px;
 {
     justify-content: space-between;
 }
+
+.carousel .slide2:not(:first-child) {
+  display: none;
+}
+
+.carousel .prev2,
+.carousel .next2 {
+  position: absolute;
+  top: 355%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 50px;
+  background-color: rgb(189, 189, 189, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.carousel .prev2 {
+left: 332px;
+}
+
+.carousel .next2 {
+right: 332px;
+}
+
   
 
 
