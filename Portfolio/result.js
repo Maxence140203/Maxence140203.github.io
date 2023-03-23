@@ -11,13 +11,6 @@ const clear = () =>{
   terminalBody.insertAdjacentHTML("afterbegin", `<div id="terminal"></div>`);
 };
 
-const experiences = () =>{
-  terminal.insertAdjacentHTML("beforeend", `
-  <table class="result experienceresult">
-      ${data[language].experience}
-  </table>`);
-};
-
 const getCv = () =>{
   terminal.insertAdjacentHTML("beforeend", 
         `<p class="result cvresult">${data[language].cv}</p>`);

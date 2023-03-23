@@ -9,7 +9,6 @@ var data = {
 
     "help" : `<li><code>about-me</code>: Display information about me</li>
     <li><code>clear</code>: Clean the terminal</li>
-    <li><code>experiences</code>: Displays the list of my experiences</li>
     <li><code>get cv</code>: Download my CV</li>
     <li><code>get linkedin</code>: Link to my Linkedin</li>
     <li><code>get github</code>: Link to my Github</li>
@@ -29,13 +28,6 @@ var data = {
       &nbsp;&nbsp;&nbsp;"softSkills" : "Agile method, Teamwork",<br>
       &nbsp;&nbsp;&nbsp;"city" : "Lyon, France"<br>
     }`,
-
-    "experience" : `<tr>
-    <th>Date</th>
-    <th>Company</th>
-    <th>Position</th>
-    <th class="description">Description</th>
-  </tr>`,
 
   "cv" : `The resume upload will begin.`,
 
@@ -125,7 +117,6 @@ var data = {
     <div><code>..</code></div>
     <div>about</div>
     <div>clear</div>
-    <div>experiences</div>
     <div>get CV</div>
     <div>get linkedin</div>
     <div>get github</div>
@@ -145,7 +136,6 @@ var data = {
   "ls2" : `
     <div>about</div>
     <div>clear</div>
-    <div>experiences</div>
     <div>get CV</div>
     <div>get linkedin</div>
     <div>get github</div>
@@ -192,7 +182,6 @@ var data = {
 
     "help" : `<li><code>a-propos</code> : Affiche les informations me concernant</li>
     <li><code>clear</code> : Nettoie le terminal</li>
-    <li><code>experiences</code> : Affiche la liste de mes expériences</li>
     <li><code>get cv</code> : Télécharge mon CV</li>
     <li><code>get linkedin</code> : Lien vers mon Linkedin</li>
     <li><code>get github</code> : Lien vers mon Github</li>
@@ -212,13 +201,6 @@ var data = {
       &nbsp;&nbsp;&nbsp;"softSkills" : "Methode Agile, travail d'équipe",<br>
       &nbsp;&nbsp;&nbsp;"ville" : "Lyon, France"<br>
     }`,
-
-    "experience" : `<tr>
-    <th>Date</th>
-    <th>Entreprise</th>
-    <th>Poste</th>
-    <th class="description">Description</th>
-  </tr>`,
 
   "cv" : `Le téléchargement du CV va commencer.`,
 
@@ -309,7 +291,6 @@ var data = {
     <div><code>..</code></div>
     <div>a-propos</div>
     <div>clear</div>
-    <div>experiences</div>
     <div>get cv</div>
     <div>get linkedin</div>
     <div>get github</div>
@@ -328,7 +309,6 @@ var data = {
   "ls2" : `
     <div>a-propos</div>
     <div>clear</div>
-    <div>experiences</div>
     <div>get cv</div>
     <div>get linkedin</div>
     <div>get github</div>
@@ -380,9 +360,6 @@ function setLanguage(){
   });
   document.querySelectorAll(".aboutmeresult").forEach(element => {
     element.innerHTML = data[language].aboutme
-  });
-  document.querySelectorAll(".experienceresult").forEach(element =>{
-    element.innerHTML = data[language].experience
   });
   document.querySelectorAll(".cvresult").forEach(element =>{
     element.innerHTML = data[language].cv
