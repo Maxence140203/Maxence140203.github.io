@@ -120,6 +120,37 @@ font-size: 14px;
     object-fit: cover;
 }
 
+.carousel .slide:not(:first-child) {
+    display: none;
+  }
+
+.carousel .prev,
+.carousel .next {
+    position: absolute;
+    top: 155%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: rgb(189, 189, 189, 0.5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.carousel .prev {
+  left: 332px;
+}
+
+.carousel .next {
+  right: 332px;
+}
+
+.carousel
+{
+    justify-content: space-between;
+}
+  
+
 
 /* Style pour les médias */
 @media screen and (max-width: 768px) {
