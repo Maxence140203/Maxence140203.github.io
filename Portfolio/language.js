@@ -67,12 +67,44 @@ var data = {
     <td class="center"><a href="https://maxence140203.github.io/#projet-1" target="blank">Link</a></td>
   </tr>
   <tr>
-    <td class="center">1</td>
+    <td class="center">2</td>
     <td class="center">Five Guys</td>
     <td class="center">Unity C#</td>
     <td>A 2D rogue lite game inspired by enter the gungeon</td>
     <td class="center">Yes</td>
     <td class="center"><a href="https://maxence140203.github.io/#projet-2" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">3</td>
+    <td class="center">Articles</td>
+    <td class="center">VueJS, Symfony, HTML, CSS, JavaScript, PHP</td>
+    <td>This project consists of creating a blog</td>
+    <td class="center">Yes</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-3" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">4</td>
+    <td class="center">SAE Implementation</td>
+    <td class="center">C++</td>
+    <td>This project consists of creating an ASCII art converter</td>
+    <td class="center">Yes</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-4" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">5</td>
+    <td class="center">Tiny URL</td>
+    <td class="center">Docker, Redis, NextJS, CSS, JavaScript, TypeScript</td>
+    <td>This project consists of creating a URL shortener</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-5" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">6</td>
+    <td class="center">Logs</td>
+    <td class="center">Docker, MongoDBCompas, NextJS, CSS, JavaScript, TypeScript</td>
+    <td>This project consists of creating a log management system</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-6" target="blank">Link</a></td>
   </tr>
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>my-projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
@@ -218,13 +250,46 @@ var data = {
     <td class="center"><a href="https://maxence140203.github.io/#projet-1" target="blank">Link</a></td>
   </tr>
   <tr>
-    <td class="center">1</td>
+    <td class="center">2</td>
     <td class="center">Five Guys</td>
     <td class="center">Unity C#</td>
     <td>Ce projet consiste à réaliser un jeu vidéo en 2D</td>
     <td class="center">Oui</td>
     <td class="center"><a href="https://maxence140203.github.io/#projet-2" target="blank">Link</a></td>
   </tr>
+  <tr>
+    <td class="center">3</td>
+    <td class="center">Articles</td>
+    <td class="center">VueJS, Symfony, HTML, CSS, JavaScript, PHP</td>
+    <td>Ce projet consiste à réaliser un site web de partage d'articles</td>
+    <td class="center">Oui</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-3" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">4</td>
+    <td class="center">SAE Implémentation</td>
+    <td class="center">C++</td>
+    <td>Ce projet consiste à réaliser un convertisseur d'images en ASCII art</td>
+    <td class="center">Oui</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-4" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">5</td>
+    <td class="center">Tiny URL</td>
+    <td class="center">Docker, Redis, NextJS, CSS, JavaScript, TypeScript</td>
+    <td>Ce projet consiste à réaliser un site web de raccourcissement d'URL</td>
+    <td class="center">Non</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-5" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">6</td>
+    <td class="center">Logs</td>
+    <td class="center">Docker, MongoDBCompas, NextJS, CSS, JavaScript, TypeScript</td>
+    <td>Ce projet consiste à réaliser un site web de gestion de logs</td>
+    <td class="center">Non</td>
+    <td class="center"><a href="https://maxence140203.github.io/#projet-6" target="blank">Link</a></td>
+  </tr>
+
   </table><br>
   <p class="result"><em>Vous pouvez voir le site rattaché au projet en utilisant la commande</em> <code>mes-projets[index].website</code><em>, index étant le numéro associé au projet.</em></p>`,
 

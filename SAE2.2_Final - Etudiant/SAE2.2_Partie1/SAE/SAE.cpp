@@ -42,7 +42,6 @@ int main()
     l.supprime_cellule(1);
     l.affiche_liste();
     l.liberer_liste();
-    std::cout << "Hello World2!\n";
     l.affiche_liste();
 
 
@@ -71,7 +70,6 @@ int main()
     lb.supprime_cellule(1);
     lb.affiche_liste();
     lb.liberer_liste();
-    std::cout << "Hello World2!\n";
     lb.affiche_liste();
 
     //Test arbre de recherche binaire
