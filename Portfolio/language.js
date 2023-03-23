@@ -235,7 +235,7 @@ var data = {
     <td class="center">2</td>
     <td class="center">Five Guys</td>
     <td class="center">Unity C#</td>
-    <td>Ce projet consiste à réaliser un jeu vidéo en 2D</td>
+    <td>Ce projet consiste à réaliser un jeu vidéo de type rogue lite en 2D</td>
     <td class="center">Oui</td>
     <td class="center"><a href="https://maxence140203.github.io/#projet-2" target="blank">Link</a></td>
   </tr>
