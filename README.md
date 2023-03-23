@@ -1,5 +1,6 @@
 
-Introduction
+Introduction:
+
 Ce répertoire GitHub contient mes projets personnels. Dans ce portfolio, je présente les projets que j'ai réalisés dans le cadre de mes études et de mon expérience professionnelle.
 
 
