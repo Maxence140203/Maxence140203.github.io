@@ -126,7 +126,6 @@ font-size: 14px;
 
 .carousel .prev,
 .carousel .next {
-    position: absolute;
     top: 155%;
     transform: translateY(-50%);
     width: 100px;
@@ -138,11 +137,11 @@ font-size: 14px;
 }
 
 .carousel .prev {
-  left: 332px;
+  left: 0;
 }
 
 .carousel .next {
-  right: 332px;
+  right: 0;
 }
 
 .carousel
@@ -156,8 +155,6 @@ font-size: 14px;
 
 .carousel .prev2,
 .carousel .next2 {
-  position: absolute;
-  top: 355%;
   transform: translateY(-50%);
   width: 100px;
   height: 50px;
@@ -168,13 +165,63 @@ font-size: 14px;
 }
 
 .carousel .prev2 {
-left: 332px;
+left: 0;
 }
 
 .carousel .next2 {
-right: 332px;
+right: 0;
 }
 
+  
+.carousel .slide3:not(:first-child) {
+  display: none;
+}
+
+.carousel .prev3,
+.carousel .next3 {
+  transform: translateY(-50%);
+  width: 100px;
+  height: 50px;
+  background-color: rgb(189, 189, 189, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.carousel .prev3 {
+left: 0;
+}
+
+.carousel .next3 {
+right: 0;
+}
+
+.carousel .slide4:not(:first-child) {
+  display: none;
+}
+
+.carousel .prev4,
+.carousel .next4 {
+  transform: translateY(-50%);
+  width: 100px;
+  height: 50px;
+  background-color: rgb(189, 189, 189, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.carousel .prev4 {
+left: 0;
+}
+
+.carousel .next4 {
+right: 0;
+}
+
+.next .prev .next2 .prev2 .prev3 .next3 .next4 .prev4 {
+  position: absolute;
+}
   
 
 

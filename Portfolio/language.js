@@ -60,11 +60,19 @@ var data = {
   </tr>
   <tr>
     <td class="center">1</td>
+    <td class="center">Portfolio</td>
+    <td class="center">HTML, CSS, JavaScript</td>
+    <td>My portfolio website</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://github.com/Maxence140203/Maxence140203.github.io/tree/master/Portfolio" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">1</td>
     <td class="center">Five Guys</td>
     <td class="center">Unity C#</td>
     <td>A 2D rogue lite game inspired by enter the gungeon</td>
     <td class="center">Yes</td>
-    <td class="center"><a href="https://github.com/Maxence140203/CatShop" target="blank">Link</a></td>
+    <td class="center"><a href="https://github.com/Maxence140203/Maxence140203.github.io/tree/master/FiveGuys" target="blank">Link</a></td>
   </tr>
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>my-projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
@@ -203,11 +211,19 @@ var data = {
   </tr>
   <tr>
     <td class="center">1</td>
+    <td class="center">Portfolio</td>
+    <td class="center">HTML, CSS, JavaScript</td>
+    <td>Mon portfolio réalisé en HTML, CSS et JavaScript</td>
+    <td class="center">Non</td>
+    <td class="center"><a href="https://github.com/Maxence140203/Maxence140203.github.io/tree/master/Portfolio" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">1</td>
     <td class="center">Five Guys</td>
     <td class="center">Unity C#</td>
-    <td>A 2D rogue lite game inspired by enter the gungeon</td>
-    <td class="center">Yes</td>
-    <td class="center"><a href="https://github.com/Maxence140203/CatShop" target="blank">Link</a></td>
+    <td>Ce projet consiste à réaliser un jeu vidéo en 2D</td>
+    <td class="center">Oui</td>
+    <td class="center"><a href="https://github.com/Maxence140203/Maxence140203.github.io/tree/master/FiveGuys" target="blank">Link</a></td>
   </tr>
   </table><br>
   <p class="result"><em>Vous pouvez voir le site rattaché au projet en utilisant la commande</em> <code>mes-projets[index].website</code><em>, index étant le numéro associé au projet.</em></p>`,

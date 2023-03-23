@@ -79,6 +79,18 @@ const website = (result) =>{
   if(result === "mes-projets[1].website" || result === "my-projects[1].website"){
     a.href = "https://maxence140203.github.io/Portfolio/";
   }
+  if(result === "mes-projets[2].website" || result === "my-projects[2].website"){
+    a.href = "https://maxence140203.github.io/FiveGuys/";
+  }
+  if (result === "mes-projets[3].website" || result === "my-projects[0].website"){
+    a.href = "https://maxence140203.github.io/ProjetWeb/";
+  }
+  if(result === "mes-projets[4].website" || result === "my-projects[3].website"){
+    a.href = "https://maxence140203.github.io/SAE_IMPLE/";
+  }
+  if(result === "mes-projets[5].website" || result === "my-projects[4].website"){
+    a.href = "https://maxence140203.github.io/ProjetWeb/";
+  }
   a.setAttribute("target", "blank");
   a.click();
 }
