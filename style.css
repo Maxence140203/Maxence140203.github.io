@@ -96,6 +96,25 @@ margin: 0;
 font-size: 14px;
 }
 
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+
 /* Style pour les médias */
 @media screen and (max-width: 768px) {
 nav ul li {
