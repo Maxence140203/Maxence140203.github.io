@@ -129,7 +129,6 @@ var data = {
     <div>my-projects[4].website</div>
     <div>my-projects[5].website</div>
     <div>my-projects[6].website</div>
-    <div>my-projects[7].website</div>
     <div><code>themes</code></div>
   `,
 
@@ -148,7 +147,6 @@ var data = {
     <div>my-projects[4].website</div>
     <div>my-projects[5].website</div>
     <div>my-projects[6].website</div>
-    <div>my-projects[7].website</div>
     <div><code>themes</code></div>
   `,
 
